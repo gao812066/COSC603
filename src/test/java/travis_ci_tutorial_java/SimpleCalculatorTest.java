@@ -16,4 +16,14 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.minus( 5, 3), 2);
 	}
+	@Test
+	public void testMulpty() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.mulpty( 5, 3), 15);
+	}
+	@Test
+	public void testDele() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.dele( 6, 3), 2);
+	}
 }
